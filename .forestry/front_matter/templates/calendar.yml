@@ -42,3 +42,18 @@ fields:
       file: 
       path: 
   label: Background Style
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+  description: heading goes here
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
