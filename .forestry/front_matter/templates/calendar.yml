@@ -57,3 +57,37 @@ fields:
     source:
       type: documents
   label: Our features
+- name: calendar_position
+  type: select
+  default: " right"
+  config:
+    required: false
+    options:
+    - left
+    - " right"
+    - " bottom"
+    - " top"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Calendar Position
+  description: place calendar in block
+- name: color_picker_position
+  type: select
+  default: left
+  config:
+    required: false
+    options:
+    - left
+    - " right"
+    - " bottom"
+    - " top"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Color Picker Position
+  description: Position of color picker
