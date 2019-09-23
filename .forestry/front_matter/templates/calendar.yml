@@ -1,4 +1,13 @@
 ---
 label: calendar
 hide_body: true
-fields: []
+fields:
+- name: today_s_date
+  type: datetime
+  description: what is today
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Today's date
