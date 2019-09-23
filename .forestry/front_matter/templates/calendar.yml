@@ -7,7 +7,14 @@ fields:
   description: what is today
   config:
     required: false
-    date_format: 
+    date_format: MM/DD/YYYY
     time_format: 
     display_utc: false
   label: Today's date
+  default: now
+- name: choose_color
+  type: color
+  label: choose color
+  config:
+    required: false
+    color_format: Hex
