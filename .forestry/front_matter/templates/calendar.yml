@@ -2,31 +2,6 @@
 label: calendar
 hide_body: true
 fields:
-- name: today_s_date
-  type: datetime
-  description: what is today
-  config:
-    required: false
-    date_format: MM/DD/YYYY
-    time_format: 
-    display_utc: false
-  label: Today's date
-  default: now
-- name: choose_color
-  type: color
-  label: choose color
-  config:
-    required: false
-    color_format: Hex
-- name: our_features
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: documents
-  label: Our features
 - name: background_style
   type: select
   default: " Left"
@@ -57,3 +32,28 @@ fields:
     schema:
       format: markdown
   label: Content
+- name: today_s_date
+  type: datetime
+  description: what is today
+  config:
+    required: false
+    date_format: MM/DD/YYYY
+    time_format: 
+    display_utc: false
+  label: Today's date
+  default: now
+- name: choose_color
+  type: color
+  label: choose color
+  config:
+    required: false
+    color_format: Hex
+- name: our_features
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: documents
+  label: Our features
