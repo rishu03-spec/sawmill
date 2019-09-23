@@ -27,3 +27,18 @@ fields:
     source:
       type: documents
   label: Our features
+- name: background_style
+  type: select
+  default: " Left"
+  config:
+    required: false
+    options:
+    - Brand Color
+    - " Left"
+    - " Dark"
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background Style
