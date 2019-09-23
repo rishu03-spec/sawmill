@@ -18,3 +18,12 @@ fields:
   config:
     required: false
     color_format: Hex
+- name: our_features
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: documents
+  label: Our features
